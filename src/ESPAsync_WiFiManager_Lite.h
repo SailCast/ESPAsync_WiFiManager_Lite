@@ -659,7 +659,7 @@ class ESPAsync_WiFiManager_Lite
         {
           ESP_WML_LOGINFO(F("bg: Fail2connect WiFi"));
           // failed to connect to WiFi, will start configuration mode
-          startConfigurationMode();
+          //startConfigurationMode();
         }
       }
       else
